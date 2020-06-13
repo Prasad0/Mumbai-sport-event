@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <link href="templates/Flatly.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <link href="js/jquery-ui.css" rel="stylesheet" />
+
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="font-awesome-4.1.0/css/font-awesome.css" rel="stylesheet" />
+      <link href="StyleSheet.css" rel="stylesheet" />
+    
+        <form id="Form1" runat="server">
+            <div>
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <nav class="navbar navbar-default"/>
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mumbai" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.aspx">MUMBAI SPORTS EVENTS</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="mumbai">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="addcategory.aspx">Add Category</a></li>
+            <li><a href="orgdetails.aspx">Organization detail</a></li>
+            <li><a href="usersite.aspx">User Details</a></li>
+              </ul>
+           
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><div id="myacc" runat="server">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span><span class="caret"></span></a>
+              &nbsp;&nbsp;<ul class="dropdown-menu">
+                  <li><a href="logout.aspx">logout</a></li>
+              </ul>
+            </div>
+                </li>
+          </ul>
+        </div>
+      </div> 
+        </div> 
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+     <div class="col-md-12 footer">
+<div class="col-md-4 about_scanfcode">
+   <h4>LOGO</h4>
+  <p>This site is design to stay in a contact with all sports events which will occur in mumbai</p>
+        <p><i class="fa fa-map-pin"></i> A/202, CENTRAL PARK,MUMBAI,MAHARASHTRA-401209 ,INDIA</p>
+        <p><i class="fa fa-phone"></i> Phone (India) : +91 9876543210</p>
+        <p><i class="fa fa-envelope"></i> E-mail : mum22@gmail.com</p>
+</div>
+<div class="col-md-3 links_scanfcode">
+ <h4>General Links</h4>
+ <ul>
+	<li><a href='#'>Blog</a></li>
+        <li><a href='#'>About Us</a></li>
+	<li><a href='#'>Contact Us</a></li>
+	<li><a href='#'>Terms & Conditions</a></li>
+	<li><a href='#'>Privacy Policy</a></li>
+	<li><a href='#'>FAQ</a></li>
+ </ul>
+</div>
+<div class="col-md-5 feedback">
+ <h4>Subscribe</h4>
+
+ <input type="text" placeholder="Enter your email"/><button type="submit" class="btn btn-primary">SUBSCRIBE</button>
+ <h4 style="margin-top:50px;">Connect+</h4>
+ 
+      <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+      <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+      <li><a target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+      <li><a target="_blank" href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a></li>
+</div>
+<div class="col-md-12" style="text-align:center;padding:5px;color:#fff;">
+	© 2017,All rights reserved
+</div>
+</div>
+</form>
+</body>
+</html>

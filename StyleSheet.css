@@ -1,0 +1,171 @@
+﻿
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+ /*.data {
+            display:none;
+        }*/
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+/*.maincontainer {
+    position:relative;
+    width:250px;
+    height:350px;
+}
+.thecard {
+   position:absolute;
+   width:100%;
+   height:100%;
+   transform-style:preserve-3d;
+   transition:all 0.5s ease;
+}
+    .thecard:hover {
+        transform:rotateY(180deg);
+    }
+.thefront {
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background: #a73636;
+    color: #333;
+    text-align:center;
+    font-family:'zilla slab',sans-serif;
+    border-radius:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.theback {
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    background: #4CAF50;
+    color: #fff;
+   text-align:center;
+    font-family:'zilla slab',sans-serif;
+    border-radius:20px;
+    font-size:18px;
+    font-weight:bold;
+    transform:rotateY(180deg);
+}*/
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.footer
+{
+background-color:#5511c6;padding:3% 4%;
+}
+.footer h4
+{
+color:#171c41;
+}
+ 
+/* section containg about and address  */
+.about_scanfcode p:first-child  // styles only first paragraph
+{
+color:#8e8787;
+line-height:140%;
+font-size:13px;
+width:100%;
+text-align:justify;
+}
+.about_scanfcode p
+{
+color:#d3d3d3;
+font-size:12px;
+}
+.about_scanfcode i //icons
+{
+color:#666;
+}
+ 
+/*  general link section */
+.links_scanfcode li
+{
+ list-style-type:none;margin:10px 0px;
+}
+.links_scanfcode a
+{
+ color:#100e0e;
+ 
+}
+/* feedback and social icons */
+.feedback button
+{
+border-radius:0px;height:47px;
+}
+.feedback input:focus
+{
+ border:solid 1px green;
+}
+.feedback li
+{
+  list-style-type:none;
+  display:inline;
+  margin:30px 10px;
+}
+.feedback i
+{
+  font-size:24px;
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+}
+.feedback a:hover i
+{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+   -o-transform: scale(1.2);
+}
+ .fa-facebook:hover {
+     color: #3B5998;
+ }
+ .fa-twitter:hover {
+     color: #4099FF;
+ }
+ .fa-google-plus:hover {
+     color: #d34836;
+ }
+.fa-instagram:hover {
+    display: inline-block;
+  text-align: center;
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.fa-pinterest:hover
+{
+  color:#ff00cc;
+}
